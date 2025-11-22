@@ -291,7 +291,7 @@ export default function Index() {
                 Ваш надежный партнер в мире технологий
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
               <Card className="animate-fade-in">
                 <CardContent className="p-6 space-y-4">
                   <div className="flex items-center gap-3">
@@ -310,31 +310,17 @@ export default function Index() {
                 <CardContent className="p-6 space-y-4">
                   <div className="flex items-center gap-3">
                     <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Icon name="Truck" className="h-6 w-6 text-primary" />
-                    </div>
-                    <h3 className="text-xl font-semibold">Доставка</h3>
-                  </div>
-                  <p className="text-muted-foreground">
-                    Быстрая доставка по всей России. Бесплатная доставка при заказе от 50 000 ₽
-                  </p>
-                </CardContent>
-              </Card>
-              
-              <Card className="animate-fade-in" style={{ animationDelay: '200ms' }}>
-                <CardContent className="p-6 space-y-4">
-                  <div className="flex items-center gap-3">
-                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
                       <Icon name="HeadphonesIcon" className="h-6 w-6 text-primary" />
                     </div>
                     <h3 className="text-xl font-semibold">Поддержка</h3>
                   </div>
                   <p className="text-muted-foreground">
-                    Профессиональная консультация и техподдержка 24/7. Всегда на связи по телефону +7 (980) 067-28-94
+                    Техподдержка с понедельника по пятницу с 13:00 до 19:00. Звоните: +7 (980) 067-28-94
                   </p>
                 </CardContent>
               </Card>
               
-              <Card className="animate-fade-in" style={{ animationDelay: '300ms' }}>
+              <Card className="animate-fade-in" style={{ animationDelay: '200ms' }}>
                 <CardContent className="p-6 space-y-4">
                   <div className="flex items-center gap-3">
                     <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -479,7 +465,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="Clock" className="h-4 w-4" />
-                  <span>Пн-Вс: 12:00 - 20:00</span>
+                  <span>Пн-Пт: 13:00 - 19:00</span>
                 </li>
               </ul>
             </div>
