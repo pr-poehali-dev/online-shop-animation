@@ -156,7 +156,7 @@ export default function Index() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Zap" className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">TechShop</span>
+            <span className="text-xl font-bold">TexnoSfera+</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
