@@ -260,7 +260,7 @@ export default function Index() {
             <Badge className="mb-4" variant="secondary">Новая коллекция 2025</Badge>
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
               Технологии будущего
-              <span className="block text-primary mt-2">уже сегодня</span>
+              <span className="block mt-2 text-purple-700">уже сегодня</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Откройте для себя мир инновационной электроники и гаджетов с лучшими характеристиками на рынке
