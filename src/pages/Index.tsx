@@ -282,6 +282,76 @@ export default function Index() {
         </div>
       </section>
 
+      <section id="about" className="py-16 px-4 bg-gradient-to-br from-secondary to-background">
+        <div className="container">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12 animate-fade-in">
+              <h2 className="text-4xl font-bold mb-4">О магазине</h2>
+              <p className="text-muted-foreground text-lg">
+                Ваш надежный партнер в мире технологий
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8">
+              <Card className="animate-fade-in">
+                <CardContent className="p-6 space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Icon name="Award" className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-semibold">Качество</h3>
+                  </div>
+                  <p className="text-muted-foreground">
+                    Только оригинальная техника от официальных поставщиков с полной гарантией производителя
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="animate-fade-in" style={{ animationDelay: '100ms' }}>
+                <CardContent className="p-6 space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Icon name="Truck" className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-semibold">Доставка</h3>
+                  </div>
+                  <p className="text-muted-foreground">
+                    Быстрая доставка по всей России. Бесплатная доставка при заказе от 50 000 ₽
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="animate-fade-in" style={{ animationDelay: '200ms' }}>
+                <CardContent className="p-6 space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Icon name="HeadphonesIcon" className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-semibold">Поддержка</h3>
+                  </div>
+                  <p className="text-muted-foreground">
+                    Профессиональная консультация и техподдержка 24/7. Всегда на связи по телефону +7 (980) 067-28-94
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="animate-fade-in" style={{ animationDelay: '300ms' }}>
+                <CardContent className="p-6 space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Icon name="Percent" className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-semibold">Цены</h3>
+                  </div>
+                  <p className="text-muted-foreground">
+                    Конкурентные цены и регулярные акции. Программа лояльности для постоянных клиентов
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="catalog" className="py-16 px-4">
         <div className="container">
           <div className="text-center mb-12 animate-fade-in">
@@ -372,7 +442,7 @@ export default function Index() {
                 <span className="text-xl font-bold">TechShop</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Лучшие технологии для вашей жизни
+                Мы предлагаем широкий ассортимент качественной электроники и гаджетов по лучшим ценам. Наша цель — сделать передовые технологии доступными каждому.
               </p>
             </div>
             
@@ -389,7 +459,7 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4">Информация</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">О компании</a></li>
+                <li><a href="#about" className="hover:text-primary transition-colors">О компании</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Доставка</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Оплата</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Гарантия</a></li>
@@ -401,7 +471,7 @@ export default function Index() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <Icon name="Phone" className="h-4 w-4" />
-                  <span>+7 (999) 123-45-67</span>
+                  <a href="tel:+79800672894" className="hover:text-primary transition-colors">+7 (980) 067-28-94</a>
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="Mail" className="h-4 w-4" />
