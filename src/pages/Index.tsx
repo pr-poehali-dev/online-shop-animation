@@ -257,10 +257,7 @@ export default function Index() {
       <section id="hero" className="py-20 px-4 bg-gradient-to-br from-primary/5 to-accent/5">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-fade-in-up">
-            <Badge className="mb-4" variant="secondary">
-              <Icon name="Sparkles" className="h-3 w-3 mr-1" />
-              Новая коллекция 2024
-            </Badge>
+            <Badge className="mb-4" variant="secondary">Новая коллекция 2025</Badge>
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
               Технологии будущего
               <span className="block text-primary mt-2">уже сегодня</span>
