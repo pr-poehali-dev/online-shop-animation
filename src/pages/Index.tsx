@@ -422,7 +422,7 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Zap" className="h-6 w-6 text-primary" />
-                <span className="text-xl font-bold">TexnoSfer+</span>
+                <span className="text-xl font-bold">TexnoSfera+</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Мы предлагаем широкий ассортимент качественной электроники и гаджетов по лучшим ценам. Наша цель — сделать передовые технологии доступными каждому.
