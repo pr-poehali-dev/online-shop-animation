@@ -477,6 +477,10 @@ export default function Index() {
                   <Icon name="Mail" className="h-4 w-4" />
                   <span>info@techshop.ru</span>
                 </li>
+                <li className="flex items-center gap-2">
+                  <Icon name="Clock" className="h-4 w-4" />
+                  <span>Пн-Вс: 12:00 - 20:00</span>
+                </li>
               </ul>
             </div>
           </div>
